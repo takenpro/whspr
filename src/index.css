@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #1a2e35;
+  color: #4ade80;
+}
+
+.form-checkbox {
+  @apply rounded border-green-500 text-green-500 shadow-sm focus:border-green-500 focus:ring focus:ring-green-500 focus:ring-opacity-50;
+}
+
+select option {
+  @apply bg-gray-700 text-green-400;
+}
